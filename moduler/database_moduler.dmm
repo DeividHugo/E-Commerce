@@ -1,0 +1,229 @@
+{
+	"tables": {
+		"e1cbafb5-f8e3-4f1f-81c7-214995d7ecb6": {
+			"id": "e1cbafb5-f8e3-4f1f-81c7-214995d7ecb6",
+			"visible": true,
+			"name": "Product",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "cb33d367-6c00-452c-905f-9219b7529904",
+					"name": "id",
+					"datatype": "integer",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": null,
+					"after": "",
+					"pg": {
+						"generatedIdentity": "no"
+					}
+				},
+				{
+					"id": "08017060-a033-4c2a-a3a5-e20effe2c333",
+					"name": "name",
+					"datatype": "varchar",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": null,
+					"list": false,
+					"after": "",
+					"pg": {
+						"generatedIdentity": "no"
+					}
+				},
+				{
+					"id": "e4ac34e1-4dc0-43e5-a631-4a0e383cb2e2",
+					"name": "image",
+					"datatype": "varchar",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": null,
+					"list": false,
+					"after": "",
+					"pg": {
+						"generatedIdentity": "no"
+					}
+				},
+				{
+					"id": "5b3f71bb-dd1c-466c-8981-877118cae51a",
+					"name": "price",
+					"datatype": "float4",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": null,
+					"list": false,
+					"after": "",
+					"pg": {
+						"generatedIdentity": "no"
+					}
+				},
+				{
+					"id": "3f19aaec-235c-4a9d-9e34-fb73e4b3e934",
+					"name": "description",
+					"datatype": "varchar",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": null,
+					"list": false,
+					"after": "",
+					"pg": {
+						"generatedIdentity": "no"
+					}
+				},
+				{
+					"id": "d0e29fae-6b22-45d7-aea6-b3deb4eca637",
+					"name": "inventory",
+					"datatype": "internal",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": null,
+					"list": false,
+					"after": "",
+					"pg": {
+						"generatedIdentity": "no"
+					}
+				}
+			],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "3e000857-ebcb-41c8-ad19-0e8384aa7532",
+					"name": "Product_pkey",
+					"isPk": true,
+					"using": "",
+					"cols": [
+						{
+							"id": "8c553574-1f23-4d38-8317-86cadd5dae9a",
+							"colid": "cb33d367-6c00-452c-905f-9219b7529904"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"objectType": "table",
+			"pg": {
+				"rowsecurity": false,
+				"schema": ""
+			}
+		}
+	},
+	"relations": {},
+	"notes": {},
+	"lines": {},
+	"model": {
+		"name": "Ecommerce",
+		"id": "4450eea6-160d-4e95-9461-33a8cd03f585",
+		"activeDiagram": "e42bfcec-9245-4d02-9538-32c1c9e092d4",
+		"desc": "",
+		"path": "",
+		"type": "PG",
+		"version": 1,
+		"parentTableInFkCols": true,
+		"caseConvention": "under",
+		"replaceSpace": "_",
+		"color": "transparent",
+		"sideSelections": true,
+		"isDirty": true,
+		"storedin": {
+			"major": 5,
+			"minor": 1,
+			"extra": 0
+		},
+		"embeddedInParentsIsDisplayed": true,
+		"schemaContainerIsDisplayed": false,
+		"cardinalityIsDisplayed": false,
+		"estimatedSizeIsDisplayed": false,
+		"writeFileParam": false,
+		"currentDisplayMode": "metadata",
+		"def_coltopk": true,
+		"pg": {
+			"schema": ""
+		},
+		"sqlSettings": {
+			"wrapLines": true,
+			"wrapOffset": 80,
+			"indent": true,
+			"indentationString": "spaces",
+			"indentationSize": 2,
+			"limitItemsOnLine": true,
+			"maxListItemsOnLine": 3,
+			"statementDelimiter": ";",
+			"routineDelimiter": ";",
+			"keywordCase": "upper",
+			"identiferCase": "original",
+			"includeSchema": "always",
+			"quotation": "if_needed",
+			"includeGeneratedNames": "always"
+		},
+		"nameAutoGeneration": {
+			"keys": true,
+			"indexes": true,
+			"relations": true
+		}
+	},
+	"otherObjects": {},
+	"diagrams": {
+		"e42bfcec-9245-4d02-9538-32c1c9e092d4": {
+			"name": "Main Diagram",
+			"description": "",
+			"id": "e42bfcec-9245-4d02-9538-32c1c9e092d4",
+			"keysgraphics": true,
+			"linegraphics": "detailed",
+			"zoom": 1,
+			"background": "transparent",
+			"lineColor": "transparent",
+			"isOpen": true,
+			"main": true,
+			"diagramItems": {
+				"e1cbafb5-f8e3-4f1f-81c7-214995d7ecb6": {
+					"referencedItemId": "e1cbafb5-f8e3-4f1f-81c7-214995d7ecb6",
+					"x": 428,
+					"y": 212,
+					"gHeight": 135,
+					"gWidth": 203,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true
+				}
+			},
+			"scroll": {
+				"x": 0,
+				"y": 0
+			},
+			"type": "erd"
+		}
+	},
+	"order": [
+		"e1cbafb5-f8e3-4f1f-81c7-214995d7ecb6"
+	],
+	"collapsedTreeItems": []
+}
