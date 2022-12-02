@@ -12,12 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Royale Depot</title>
 
-    <link rel="shortcut icon" href="{% static 'src/images/logos/default.png' %}" type="image/x-icon">
-    <link rel="stylesheet" href="{% static 'src/css/style.css' %}">
-
-    {% compress css %}
-    <link rel="stylesheet" href="{% static 'src/output.css' %}">
-    {% endcompress %}
+    {% include 'imports.html' %} 
 
 </head>
 

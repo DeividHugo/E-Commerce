@@ -2,6 +2,7 @@
 module.exports = {
   content: [
     './templates/*.html',
+    "./src/**/*.{html,js}",
     './node_modules/flowbite/**/*.js'
 ],
   theme: {
