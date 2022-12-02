@@ -1,0 +1,9 @@
+{% load compress %}
+{% load static %}
+
+<link rel="shortcut icon" href="{% static 'src/images/logos/default.png' %}" type="image/x-icon">
+<link rel="stylesheet" href="{% static 'src/css/style.css' %}">
+
+{% compress css %}
+<link rel="stylesheet" href="{% static 'src/output.css' %}">
+{% endcompress %}
